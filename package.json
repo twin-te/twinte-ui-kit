@@ -17,6 +17,7 @@
     },
     "scripts": {
         "storybook": "start-storybook",
+        "storybook:build": "build-storybook -o docs",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
