@@ -17,7 +17,8 @@
     },
     "scripts": {
         "storybook": "start-storybook",
-        "storybook:build": "build-storybook -o docs",
+        "storybook:build": "build-storybook",
+        "deploy": "gh-pages -d storybook-static",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -43,6 +44,7 @@
         "@babel/plugin-syntax-jsx": "^7.7.4",
         "@storybook/react": "^5.2.8",
         "babel-loader": "^8.0.6",
+        "gh-pages": "^2.1.1",
         "styled-components": "^4.4.1"
     }
 }
