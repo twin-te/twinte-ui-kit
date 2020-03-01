@@ -1,0 +1,36 @@
+---
+name: Checkbox
+menu: Atoms
+---
+
+import { Playground, Props } from 'docz';
+import Checkbox from './checkbox_react.tsx';
+
+## Properties
+
+<Props of={Checkbox} />
+
+## React usage
+
+<Playground>
+  <Checkbox>マーク1</Checkbox>
+  <Checkbox>マーク2</Checkbox>
+  <Checkbox>マーク3</Checkbox>
+</Playground>
+
+## Basic usage
+
+<Playground>
+  <label class="checkbox">
+    <input class="checkbox" type="checkbox" />
+    <span class="checkbox__label">マーク1</span>
+  </label>
+  <label class="checkbox">
+    <input class="checkbox" type="checkbox" />
+    <span class="checkbox__label">マーク2</span>
+  </label>
+  <label class="checkbox">
+    <input class="checkbox" type="checkbox" />
+    <span class="checkbox__label">マーク3</span>
+  </label>
+</Playground>

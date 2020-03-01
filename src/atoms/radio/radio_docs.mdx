@@ -1,0 +1,31 @@
+---
+name: Radio
+menu: Atoms
+---
+
+import { Playground, Props } from 'docz';
+import Radio from './radio_react.tsx';
+
+## Properties
+
+<Props of={Radio} />
+
+## React usage
+
+<Playground>
+  <Radio name="food">りんご</Radio>
+  <Radio name="food">オレンジ</Radio>
+</Playground>
+
+## Basic usage
+
+<Playground>
+  <label>
+    <input class="radio" type="radio" name="food" />
+    <span class="radio__label">りんご</span>
+  </label>
+  <label>
+    <input class="radio" type="radio" name="food" />
+    <span class="radio__label">オレンジ</span>
+  </label>
+</Playground>
